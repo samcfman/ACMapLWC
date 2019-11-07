@@ -6,11 +6,8 @@
             "c/helloWorld": [
                 "helloWorld/helloWorld.js"
             ],
-            "c/myContactMap": [
-                "myContactMap/myContactMap.js"
-            ],
-            "c/contactMap": [
-                "contactMap/contactMap.js"
+            "c/accountMap": [
+                "accountMap/accountMap.js"
             ]
         }
     },

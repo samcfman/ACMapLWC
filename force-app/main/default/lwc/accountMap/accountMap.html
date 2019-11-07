@@ -1,0 +1,9 @@
+<template>
+        <lightning-card title="Account Map" icon-name="custom:custom14">
+            <template if:true={accounts}>
+                    <lightning-map map-markers={accounts}  markers-title={accounts} zoom-level={zoomLevel}>
+                    </lightning-map>   
+            </template>
+        </lightning-card>
+    
+</template>
