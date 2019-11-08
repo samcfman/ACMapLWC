@@ -1,10 +1,12 @@
 <template>
         <lightning-card title="Account Map" icon-name="custom:custom14">
-            <div>Login Use : {name}</div>
+            <div>Login User : {name}</div>
+            <div>Hello, {message}!</div>
             <template if:true={accounts}>
                     <lightning-map map-markers={accounts}  markers-title={accounts} zoom-level={zoomLevel}>
                     </lightning-map>   
             </template>
+            <c-hello-world onmessagechange={handleHelloWorldChange}></c-hello-world>
         </lightning-card>
     
 </template>
